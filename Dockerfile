@@ -10,7 +10,7 @@ RUN apt-get -q update &&\
 
 RUN apt-get install -qy --force-yes python-cheetah python-setuptools wget tar ca-certificates curl git
 
-RUN git clone https://github.com/junalmeida/Sick-Beard.git -b $SICKBEARD_VERSION /sickbeard
+RUN git clone https://github.com/midgetspy/Sick-Beard.git -b $SICKBEARD_VERSION /sickbeard
 
 # apt clean
 RUN apt-get clean &&\
