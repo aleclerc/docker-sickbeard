@@ -1,6 +1,9 @@
 #! /bin/sh
 
 cd /sickbeard
+
+git pull origin
+
 if [ -f /config/config.ini ]
 then
 	rm -rf /sickbeard/config.ini
